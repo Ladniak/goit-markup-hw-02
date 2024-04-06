@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
-    color:black;
+    color: #434455;
     background-color: #ffffff;
 }
 
@@ -43,15 +43,17 @@ h3 {
     font-size: 20px;
 }
 
-button {
+.sec-button {
     background-color: #4D5AE5;
     color:#ffffff;
-    border: 1px solid currentcolor;
+    border: 1px solid #4D5AE5;
     font-weight: Medium;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 4%;
     cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.04em;
 }
 
 button:hover,
@@ -60,6 +62,124 @@ button:focus {
     color:#ffffff;
 }
 
+.nav-title {
+    font-family: "Ralevay", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.nav-logo {
+    color: #2e2f42;
+}
+
 .nav-page .link:active {
     text-decoration: underline;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address .link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.first-sec {
+    background: #2e2f42;
+}
+
+.first-sec .sec-title {
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.second-sec .sec-title {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.second-sec .sec-list .par {
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+
+.third-sec {
+    background: #F4F4FD;
+}
+
+.third-sec .sec-title {
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.third-sec .sec-list {
+    background: #FFFFFF;
+}
+
+.third-sec .sec-list .list-title {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color:#2e2f42
+}
+
+.third-sec .sec-list .par {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.fourth-sec .sec-title {
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.fourth-sec .list-title {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.fourth-sec .par {
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.foot {
+    background: #2e2f42;   
+}
+
+.foot .foot-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.foot .par {
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
