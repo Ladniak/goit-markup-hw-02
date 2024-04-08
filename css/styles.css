@@ -5,6 +5,7 @@ body {
     line-height: 24px;
     letter-spacing: 2%;
     color: #434455;
+    background: #ffffff;
 }
 
 h1 {
@@ -53,10 +54,10 @@ p {
 
 button {
     font-family: "Roboto", sans-serif;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     background: #4D5AE5;
     border: solid #4D5AE5;
     color: #ffffff;
@@ -73,8 +74,8 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -84,10 +85,10 @@ ul {
 
 .nav-page .link {
     color: #2E2F42 ;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .nav-page .link:hover,
@@ -100,10 +101,14 @@ ul {
     text-decoration: underline;
 }
 
+.address {
+    font-style: normal;
+}
+
 .address .link {
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -123,16 +128,17 @@ ul {
     color: #ffffff;
     font-weight: bold;
     font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
-.first-sec .but1:hover,
-.first-sec .but1:focus {
+.first-sec .but:hover,
+.first-sec .but:focus {
     background: #404BBF;
     border: solid #404BBF;
     text-align: center; 
+    letter-spacing: 0.04em;
 }
 
 /* This is end of section 1 */
@@ -140,6 +146,12 @@ ul {
 
 .second-sec .title {
     text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.second-sec .par {
+    letter-spacing: 0.02em;
 }
 
 /* This is end of section 2 */
@@ -151,6 +163,19 @@ ul {
 
 .third-sec .title {
     text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.third-sec .sec-list {
+    background: #ffffff;
+}
+
+.third-sec .sec-list .par {
+    letter-spacing: 0.02em;
 }
 
 /* This is end of section 3 */
@@ -158,6 +183,18 @@ ul {
 
 .fourth-sec .title {
     text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.fourth-sec .list-title {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.fourth-sec .par {
+    letter-spacing: 0.02em;
 }
 
 /* This is end of section 4 */
@@ -171,8 +208,8 @@ ul {
     font-family: "Raleway", sans-serif;
         font-weight: bold;
         font-size: 18px;
-        line-height: 21px;
-        letter-spacing: 3%;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
@@ -182,4 +219,5 @@ ul {
 
 .foot .par {
     color: #F4F4FD ;
+    letter-spacing: 0.02em;
 }
