@@ -1,189 +1,185 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: Regular; 
+    font-weight: Regular;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
     color: #434455;
-    background-color: #ffffff;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    font-weight: regular;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 4%;
+    text-decoration: none;
+    color: #4D5AE5;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    background: #4D5AE5;
+    border: solid #4D5AE5;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 ul {
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-    color:black;
-    font-weight: Regular;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 4%;
+/* This is header */
+
+.nav-page .nav-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
 }
 
-a:hover,
-a:focus {
-    color:#404BBF;
+.nav-page .nav-logo .logo {
+    color: #2E2F42;
 }
 
-h1 {
-    font-weight: Bold;
-    font-size: 56px;
-    line-height: 60px;
-}
-
-h2 {
-    font-weight: Bold;
-    font-size: 36px;
-    line-height: 40px;
-}
-
-h3 {
-    font-weight: Medium;
-    font-size: 20px;
-}
-
-.sec-button {
-    background-color: #4D5AE5;
-    color:#ffffff;
-    border: 1px solid #4D5AE5;
-    font-weight: Medium;
+.nav-page .link {
+    color: #2E2F42 ;
+    font-weight: medium;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 4%;
-    cursor: pointer;
-    font-weight: 500;
-    letter-spacing: 0.04em;
+    letter-spacing: 2%;
 }
 
-button:hover,
-button:focus {
-    background-color: #404BBF;
-    color:#ffffff;
-}
-
-.nav-title {
-    font-family: "Ralevay", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-}
-
-.nav-logo {
-    color: #2e2f42;
+.nav-page .link:hover,
+.nav-page .link:focus {
+    color: #404BBF;
 }
 
 .nav-page .link:active {
+    color: #404BBF;
     text-decoration: underline;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.address {
-    font-style: normal;
 }
 
 .address .link {
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    line-height: 24px;
+    letter-spacing: 2%;
     color: #434455;
 }
 
+.address .link:hover,
+.address .link:focus {
+    color: #404BBF;
+}
+
+/* This is end of header */
+/* This is section 1 */
+
 .first-sec {
-    background: #2e2f42;
+    background: #2E2F42;
 }
 
-.first-sec .sec-title {
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
+.first-sec .header {
     color: #ffffff;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+    text-align: center;
 }
 
-.second-sec .sec-title {
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.first-sec .but1:hover,
+.first-sec .but1:focus {
+    background: #404BBF;
+    border: solid #404BBF;
+    text-align: center; 
 }
 
-.second-sec .sec-list .par {
-    letter-spacing: 0.02em;
-    color:#434455;
+/* This is end of section 1 */
+/* This is section 2 */
+
+.second-sec .title {
+    text-align: center;
 }
+
+/* This is end of section 2 */
+/* This is section 3 */
 
 .third-sec {
     background: #F4F4FD;
 }
 
-.third-sec .sec-title {
-    line-height: 1.11;
+.third-sec .title {
     text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
 }
 
-.third-sec .sec-list {
-    background: #FFFFFF;
-}
+/* This is end of section 3 */
+/* This is section 4 */
 
-.third-sec .sec-list .list-title {
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color:#2e2f42
-}
-
-.third-sec .sec-list .par {
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.fourth-sec .sec-title {
-    line-height: 1.11;
+.fourth-sec .title {
     text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
 }
 
-.fourth-sec .list-title {
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color:#2e2f42;
-}
-
-.fourth-sec .par {
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+/* This is end of section 4 */
+/* This is footer */
 
 .foot {
-    background: #2e2f42;   
+    background: #2E2F42;
 }
 
-.foot .foot-logo {
+.foot .nav-logo {
     font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 3%;
+        text-transform: uppercase;
+}
+
+.foot .nav-logo .logo{
+        color: #F4F4FD;
 }
 
 .foot .par {
-    color: #F4F4FD;
-    letter-spacing: 0.02em;
-}
-
-.foot .studio-logo {
-    color: #F4F4FD;
+    color: #F4F4FD ;
 }
